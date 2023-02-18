@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body data-oscura>
     <header class="header">
       <div class="contenedor contenido-header">
         <div class="barra">
@@ -49,7 +49,7 @@
     </header>
 
     <section class="contenedor mt-5 nosotros">
-      <div class="contenido-nosotros">
+      <div class="contenido-nosotros" data-oscura>
         <h2>Sobre Nosotros</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, officiis
@@ -69,7 +69,7 @@
     <main class="contenedor mt-5">
       <h2>Conoce nuestros 3 modelos</h2>
       <div class="modelo basico">
-        <div class="contenido-modelo">
+        <div class="contenido-modelo" data-oscura>
           <h3>Modelo Básico</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
@@ -82,7 +82,7 @@
       </div>
       <!--fin .modelo-->
       <div class="modelo premier">
-        <div class="contenido-modelo">
+        <div class="contenido-modelo" data-oscura>
           <h3>Modelo Premier</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
@@ -95,7 +95,7 @@
       </div>
       <!--fin .modelo-->
       <div class="modelo elite">
-        <div class="contenido-modelo">
+        <div class="contenido-modelo" data-oscura>
           <h3>Modelo Elite</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
@@ -163,10 +163,11 @@
         </div>
       </div>
 
-      <div class="copiyright">
+      <p class="copiyright">
         &copy Todos los derechos reservados - Jorge luis Monzón
-      </div>
+      </p>
     </footer>
+    <button class="tema-oscuro-btn">🌙</button>
     <script src="js/modulos.js" type="module"></script>
   </body>
 </html>
