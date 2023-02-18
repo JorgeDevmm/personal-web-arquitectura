@@ -313,6 +313,7 @@ header a {
 .galeria img {
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .galeria {
