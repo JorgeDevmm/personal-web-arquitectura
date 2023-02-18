@@ -35,6 +35,7 @@ h3 {
 }
 h1 {
   font-size: 3.8rem;
+  color: var(--blanco);
 }
 h2 {
   font-size: 4.8rem;
@@ -262,7 +263,8 @@ img {
 @media (min-width: 768px) {
   .basico .contenido-modelo {
     grid-row: 2/3;
-    padding: 2rem 2rem 2rem 0;
+    /* padding: 2rem 2rem 2rem 0; */
+    padding: 2rem;
   }
 }
 @media (min-width: 768px) {
@@ -290,7 +292,7 @@ img {
 @media (min-width: 768px) {
   .elite .contenido-modelo {
     grid-column: 1/2;
-    padding: 2rem 2rem 2rem 0;
+    padding: 2rem;
   }
 }
 @media (min-width: 768px) {
@@ -365,7 +367,7 @@ img {
 /* copiyright */
 .copiyright {
   text-align: center;
-  background-color: var(--negroclaro);
+  background-color: var(--blanco);
   margin: 5rem 0 0 0;
   font-size: 2rem;
   padding: 1rem;
@@ -400,6 +402,12 @@ img {
   color: var(--blanco);
 }
 .nosotros .modo-oscuro {
+  background-color: var(--beigeoscuro);
+  color: var(--blanco);
+}
+.basico .modo-oscuro,
+.premier .modo-oscuro,
+.elite .modo-oscuro {
   background-color: var(--beigeoscuro);
   color: var(--blanco);
 }

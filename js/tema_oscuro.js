@@ -3,8 +3,8 @@ export default function temaOscuro(btn, classOscuro) {
   const temaBtn = document.querySelector(btn);
   const selector = document.querySelectorAll('[data-oscura]'); //estilos por atributo
 
-  let moon = '🌙',
-    sun = ' ☀️';
+  let moon = '☽︎',
+    sun = '☀';
 
   document.addEventListener('click', (event) => {
     if (event.target.matches(btn)) {
