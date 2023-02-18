@@ -215,3 +215,9 @@ header a {
 .contenido-nosotros p {
   margin-bottom: 1rem;
 }
+
+/**Modelos**/
+.modelo {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
