@@ -27,17 +27,17 @@
       <div class="contenedor contenido-header">
         <div class="barra">
           <div class="logo">
-            <h1 class="nombre-sitio">Arquitectura<span>EcoVid</span></h1>
+            <h1 class="nombre-sitio">Arquitectura<span>Eco-Vid</span></h1>
           </div>
           <div class="contacto">
             <a class="telefono" href="tel:51-800-009-000">51-800-009-000</a>
 
             <nav class="navegacion">
               <a class="link" href="#">Inicio</a>
-              <a class="link" href="#">Nosotros</a>
-              <a class="link" href="#">Modelos</a>
-              <a class="link" href="#">Galeria</a>
-              <a class="link" href="#">Contacto</a>
+              <a class="link" href="#nosotros">Nosotros</a>
+              <a class="link" href="#modelo">Modelos</a>
+              <a class="link" href="#galeria">Galeria</a>
+              <a class="link" href="#contacto">Contacto</a>
             </nav>
           </div>
         </div>
@@ -48,7 +48,7 @@
       </div>
     </header>
 
-    <section class="contenedor mt-5 nosotros">
+    <section id="nosotros" class="contenedor mt-5 nosotros">
       <div class="contenido-nosotros" data-oscura>
         <h2>Sobre Nosotros</h2>
         <p>
@@ -66,7 +66,7 @@
       </div>
     </section>
 
-    <main class="contenedor mt-5">
+    <main id="modelo" class="contenedor mt-5">
       <h2>Conoce nuestros 3 modelos</h2>
       <div class="modelo basico">
         <div class="contenido-modelo" data-oscura>
@@ -109,7 +109,7 @@
       <!--fin .modelo-->
     </main>
 
-    <section class="contenedor mt-5">
+    <section id="galeria" class="contenedor mt-5">
       <h2>Galería</h2>
       <div class="galeria">
         <div class="imagen">
@@ -149,7 +149,7 @@
           <div class="logo">
             <h1 class="nombre-sitio">Arquitectura<span>EcoVid</span></h1>
           </div>
-          <div class="contacto">
+          <div id="contacto" class="contacto">
             <a class="telefono" href="tel:51-800-009-000">51-800-009-000</a>
 
             <nav class="navegacion">
@@ -167,7 +167,7 @@
         &copy Todos los derechos reservados - Jorge luis Monzón
       </p>
     </footer>
-    <button class="tema-oscuro-btn">☽︎</button>
+    <button class="tema-oscuro-btn" data-oscura>>☽︎</button>
     <script src="js/modulos.js" type="module"></script>
   </body>
 </html>
