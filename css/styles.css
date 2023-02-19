@@ -13,6 +13,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *,
 *:before,
@@ -415,6 +416,19 @@ img {
   color: var(--blanco);
 }
 .modo-oscuro .tema-oscuro-btn {
+  background-color: var(--blanco);
+  color: var(--negroclaro);
+}
+
+.btn.modo-oscuro {
+  color: var(--blanco);
+  background-color: var(--negroclaro);
+  border: 1px solid var(--gris);
+  padding: 0.5rem 2rem;
+  transition: background-color 0.3s;
+}
+.btn.modo-oscuro:hover {
+  /* background-color: var(--gris); */
   background-color: var(--blanco);
   color: var(--negroclaro);
 }
